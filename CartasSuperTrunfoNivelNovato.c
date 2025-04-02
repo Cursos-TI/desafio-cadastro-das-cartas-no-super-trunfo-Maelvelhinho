@@ -22,10 +22,10 @@ int main(){
     scanf(" %c", &estado);
     
     printf("Agora o código da carta (A letra do estado seguida de um número de 01 a 04 (ex: A01, B03)):\n");
-    scanf("%s", &codigoCarta);
+    scanf("%s", codigoCarta);
     
     printf("Insira o nome da sua cidade: \n");
-    scanf("%s", &nomeCidade);
+    scanf("%s", nomeCidade);
 
     printf("Insira o número de habitantes da cidade(não utilize ponto): \n");
     scanf(" %d", &populacao);

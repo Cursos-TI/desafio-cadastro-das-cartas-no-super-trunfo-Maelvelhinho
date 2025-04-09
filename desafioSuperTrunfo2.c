@@ -28,6 +28,9 @@ int main(){
     printf("Insira os dados solicitados para cadastro da CARTA Nº 1.\n");
     printf("Digite a sigla do seu Estado:\n");
     scanf("%s", estado);
+
+    printf("Insira o código da sua carta (é a primeira letra do estado mais um número de 0 a 3): \n");
+    scanf("%s", codigoCarta);
     
     printf("Insira o nome da sua cidade: \n");
     scanf("%s", nomeCidade);
@@ -55,6 +58,9 @@ int main(){
 
     printf("Digite a sigla do seu Estado:\n");
     scanf(" %s", estado2);
+
+    printf("Insira o código da sua carta (é a primeira letra do estado mais um número de 0 a 3): \n");
+    scanf("%s", codigoCarta2);
      
     printf("Insira o nome da sua cidade: \n");
     scanf("%s", nomeCidade2);
